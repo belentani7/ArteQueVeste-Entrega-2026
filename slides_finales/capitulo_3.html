@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background-color: #F4E7D3;
+            background-image: url('https://www.transparenttextures.com/patterns/natural-paper.png');
+            color: #2E1104;
+            font-family: 'Open Sans', sans-serif;
+            border: 15px solid #4A2311;
+            position: relative;
+        }
+        .header {
+            padding-top: 40px;
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+        .chapter-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 800;
+            color: #4A2311;
+            text-transform: uppercase;
+        }
+        .dashed-rule {
+            border-top: 2px dashed #4A2311;
+            margin-top: 10px;
+            width: 100%;
+        }
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 450px;
+            gap: 40px;
+            padding-top: 30px;
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+        .text-content {
+            padding-top: 10px;
+        }
+        .drop-cap {
+            float: left;
+            font-family: 'Playfair Display', serif;
+            font-size: 80px;
+            line-height: 60px;
+            padding-top: 4px;
+            padding-right: 10px;
+            color: #F1C40F;
+            font-weight: 800;
+        }
+        .arch-box {
+            background: rgba(74, 35, 17, 0.03);
+            border: 1px solid #4A2311;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .arch-item {
+            font-size: 18px;
+            margin-bottom: 15px;
+            padding-left: 30px;
+            position: relative;
+        }
+        .arch-item::before {
+            content: '⚙️';
+            position: absolute;
+            left: 0;
+            font-size: 18px;
+        }
+        .image-frame {
+            border: 5px solid #4A2311;
+            height: 500px;
+            width: 400px;
+            overflow: hidden;
+        }
+        .brand-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        .recommendation-tag {
+            background: #27AE60;
+            color: white;
+            padding: 4px 12px;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <h2 class="chapter-title">03. Arquitetura Técnica</h2>
+            <div class="dashed-rule"></div>
+        </div>
+        <div class="main-content">
+            <div class="text-content">
+                <div class="recommendation-tag">Opção B: Recomendada</div>
+                <p style="font-size: 20px; line-height: 1.6; text-align: justify;">
+                    <span class="drop-cap">A</span> transição do HTML estático para a loja real exige uma infraestrutura robusta que preserve a identidade visual e as animações GSAP exclusivas.
+                </p>
+                <div class="arch-box">
+                    <div class="arch-item"><strong>Frontend:</strong> Manutenção total do HTML/CSS/JS atual (GSAP).</div>
+                    <div class="arch-item"><strong>Backend:</strong> API leve construída em <strong>FastAPI</strong> (Python).</div>
+                    <div class="arch-item"><strong>Banco de Dados:</strong> Persistência em <strong>PostgreSQL</strong>.</div>
+                    <div class="arch-item"><strong>Vantagem:</strong> Zero perda de design e sem taxas de plataforma SaaS.</div>
+                </div>
+                <p style="margin-top: 20px; font-style: italic; font-size: 18px; border-top: 1px solid #4A2311; padding-top: 10px;">
+                    "A estrutura invisível sustenta a beleza visível." — Solidez técnica para a Arte Que Veste.
+                </p>
+            </div>
+            <div class="image-frame">
+                <img src="/home/ubuntu/Yvienendeeso_content/images/image_1782173084449.jpeg" class="brand-image" alt="Arte Que Veste Identidade">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

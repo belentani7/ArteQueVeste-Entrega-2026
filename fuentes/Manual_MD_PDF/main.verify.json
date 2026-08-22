@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "pdf": "/home/ubuntu/Manual_MD_PDF/main.pdf",
+  "profile": "text-document",
+  "overall": "FAIL",
+  "checks": [
+    {
+      "name": "signature",
+      "status": "PASS",
+      "message": "PDF header is valid",
+      "evidence": {
+        "header": "%PDF-"
+      }
+    },
+    {
+      "name": "pdfinfo",
+      "status": "PASS",
+      "message": "PDF is parseable by pdfinfo",
+      "evidence": {}
+    },
+    {
+      "name": "page-count",
+      "status": "PASS",
+      "message": "pages=2",
+      "evidence": {
+        "pages": 2
+      }
+    },
+    {
+      "name": "text-presence",
+      "status": "PASS",
+      "message": "characters=3755",
+      "evidence": {}
+    },
+    {
+      "name": "placeholders",
+      "status": "FAIL",
+      "message": "Placeholder markers found",
+      "evidence": {
+        "matches": [
+          "todo"
+        ]
+      }
+    },
+    {
+      "name": "fonts",
+      "status": "PASS",
+      "message": "font_records=5",
+      "evidence": {}
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background-color: #F4E7D3;
+            background-image: url('https://www.transparenttextures.com/patterns/natural-paper.png');
+            color: #2E1104;
+            font-family: 'Open Sans', sans-serif;
+            border: 15px solid #4A2311;
+            position: relative;
+        }
+        .header {
+            padding-top: 40px;
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+        .chapter-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 800;
+            color: #4A2311;
+            text-transform: uppercase;
+        }
+        .dashed-rule {
+            border-top: 2px dashed #4A2311;
+            margin-top: 10px;
+            width: 100%;
+        }
+        .main-content {
+            display: grid;
+            grid-template-columns: 450px 1fr;
+            gap: 40px;
+            padding-top: 40px;
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+        .image-container {
+            border: 4px solid #4A2311;
+            height: 500px;
+            width: 400px;
+            overflow: hidden;
+        }
+        .chapter-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .text-content {
+            padding-top: 20px;
+        }
+        .drop-cap {
+            float: left;
+            font-family: 'Playfair Display', serif;
+            font-size: 80px;
+            line-height: 60px;
+            padding-top: 4px;
+            padding-right: 8px;
+            padding-left: 3px;
+            color: #F1C40F;
+            font-weight: 800;
+        }
+        .body-text {
+            font-size: 22px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+        .bullet-list {
+            margin-top: 30px;
+            list-style: none;
+        }
+        .bullet-item {
+            font-size: 20px;
+            margin-bottom: 15px;
+            padding-left: 30px;
+            position: relative;
+        }
+        .bullet-item::before {
+            content: '✦';
+            position: absolute;
+            left: 0;
+            color: #F1C40F;
+        }
+        .accent-box {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px dashed #4A2311;
+            background: rgba(241, 196, 15, 0.1);
+            font-style: italic;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <h2 class="chapter-title">01. Fundamentos Jurídicos</h2>
+            <div class="dashed-rule"></div>
+        </div>
+        <div class="main-content">
+            <div class="image-container">
+                <img src="/home/ubuntu/Yvienendeeso_content/images/image_1782173083109.jpeg" class="chapter-image" alt="Amanhecer no Sertão">
+            </div>
+            <div class="text-content">
+                <p class="body-text">
+                    <span class="drop-cap">O</span> regime MEI é o ponto de partida recomendado para a fase atual da Arte Que Veste. Em Sergipe, a abertura é integrada entre a Receita Federal, a Jucese e a Prefeitura através de sistemas digitais eficientes.
+                </p>
+                <ul class="bullet-list">
+                    <li class="bullet-item"><strong>Portal do Empreendedor:</strong> Obtenção imediata do CNPJ.</li>
+                    <li class="bullet-item"><strong>AGILIZA SE:</strong> Sistema estadual de viabilidade e registro (Redesim).</li>
+                    <li class="bullet-item"><strong>SLIM Aracaju:</strong> Portal de licenciamento municipal para o Alvará de Funcionamento.</li>
+                </ul>
+                <div class="accent-box">
+                    "Onde a luz chega, a prosperidade floresce." — Foco na legalidade para o crescimento sustentável.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

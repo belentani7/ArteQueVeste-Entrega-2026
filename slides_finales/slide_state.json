@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "title": "Portada Principal",
+    "created": 1787273162.043,
+    "last_updated": 1787273279.147,
+    "total_slides": 12
+  },
+  "slides": [
+    {
+      "id": "portada",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "capitulo_1",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "capitulo_2",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "capitulo_3",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "capitulo_4",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "capitulo_5",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "capitulo_6",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "capitulo_7",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "capitulo_8",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "capitulo_9",
+      "state": "edited",
+      "pageNum": 10
+    },
+    {
+      "id": "capitulo_10",
+      "state": "edited",
+      "pageNum": 11
+    },
+    {
+      "id": "cierre",
+      "state": "edited",
+      "pageNum": 12
+    }
+  ],
+  "outline": [
+    {
+      "id": "portada",
+      "title": "Portada Principal",
+      "summary": "Arte Que Veste - Manual 2026.",
+      "image_plan": "/home/ubuntu/Yvienendeeso_content/images/portada_magica.png - The image clearly displays the brand name 'Arte Que Veste' in a visually appealing, carved wood style, making it highly relevant for the cover slide."
+    },
+    {
+      "id": "capitulo_1",
+      "title": "01. Fundamentos Jurídicos",
+      "summary": "Legal steps in Aracaju/SE.",
+      "image_plan": "/home/ubuntu/Yvienendeeso_content/images/image_1782173083109.jpeg - This image depicts a sunrise over a landscape with a rooster and a cactus, aligning with the slide's theme of 'Where the light arrives, prosperity flourishes' and the regional context of Aracaju."
+    },
+    {
+      "id": "capitulo_2",
+      "title": "02. Reforma Tributária 2026",
+      "summary": "Changes for 2026 and 2027.",
+      "image_plan": "/home/ubuntu/Yvienendeeso_content/images/image_1782173081666.jpeg - The image features a person on horseback in a desert landscape with a rising sun, which visually represents the proverb 'Whoever walks with faith never gets lost in the hinterland' and the regional setting."
+    },
+    {
+      "id": "capitulo_3",
+      "title": "03. Arquitetura Técnica",
+      "summary": "Option B: FastAPI + PostgreSQL."
+    },
+    {
+      "id": "capitulo_4",
+      "title": "04. Experiência do Cliente",
+      "summary": "Customer rights and WhatsApp support.",
+      "image_plan": "/home/ubuntu/Yvienendeeso_content/images/image_1782173080204.jpeg - The image of a campfire and an owl under a starry sky directly illustrates the proverb 'The fire that warms the heart also illuminates the paths', connecting to the theme of customer experience and warmth."
+    },
+    {
+      "id": "capitulo_5",
+      "title": "05. Logística e Frete",
+      "summary": "Melhor Envio and Aracaju hub.",
+      "image_plan": "/home/ubuntu/Yvienendeeso_content/images/image_1782173078792.jpeg - The image shows a rustic house with a dog and a cactus under a moonlit sky, which visually represents the proverb 'Prosperity is having roots, roof, and affection', relating to the management of stock and products as foundational elements."
+    },
+    {
+      "id": "capitulo_6",
+      "title": "06. Marketing Digital",
+      "summary": "Instagram strategy @artequeveste79.",
+      "image_plan": "/home/ubuntu/Yvienendeeso_content/images/image_1782173077267.jpeg - The image of a lantern illuminating a path at night with a moth flying towards it directly illustrates the proverb 'A small light is enough to change the whole night', which is relevant to marketing and visual identity as a guiding light."
+    },
+    {
+      "id": "capitulo_7",
+      "title": "07. Gestão de Estoque",
+      "summary": "SKU patterns and physical inventory.",
+      "image_plan": "/home/ubuntu/Yvienendeeso_content/images/image_1782173085743.jpeg - The image features a rustic, woodcut-style illustration with elements like a cactus, a house, and a fire, which evokes a sense of regional culture and aligns with the operational and logistical aspects of a business rooted in a specific location like Aracaju."
+    },
+    {
+      "id": "capitulo_8",
+      "title": "08. Custos de Implantação",
+      "summary": "Financial breakdown 2026.",
+      "image_plan": "/home/ubuntu/Yvienendeeso_content/images/image_1782173075635.jpeg - The image depicts a cat surrounded by baskets of fruits and vegetables under a rising sun, which directly illustrates the proverb 'Where there is exchange, there is abundance', fitting the theme of financial management and costs."
+    },
+    {
+      "id": "capitulo_9",
+      "title": "09. Segurança e LGPD",
+      "summary": "Data protection and compliance.",
+      "image_plan": "/home/ubuntu/Yvienendeeso_content/images/image_1782173073803.jpeg - The image of an owl and a cactus under a full moon, with the proverb 'The night also teaches those who know how to listen', visually represents the themes of security and sustainability, suggesting wisdom and resilience in challenging times."
+    },
+    {
+      "id": "capitulo_10",
+      "title": "10. Visão de Futuro",
+      "summary": "Conclusion and scaling.",
+      "image_plan": "/home/ubuntu/Yvienendeeso_content/images/image-20.jpg - The image features a geometric design with stars and a desert landscape, accompanied by the proverb 'In the silence of geometry, the cosmos reveals itself', which aligns with the abstract and forward-looking nature of the 'Vision of Future and Conclusion' slide."
+    },
+    {
+      "id": "cierre",
+      "title": "Cierre y Créditos",
+      "summary": "Final credits and rights reserved.",
+      "image_plan": "/home/ubuntu/Yvienendeeso_content/images/image_1782173087065.jpeg - The image is a detailed, rustic illustration with the brand name 'Arte Que Veste' and various cultural elements, making it suitable for a 'Contraportada' (back cover) that summarizes the brand's essence and cultural roots."
+    }
+  ]
+}

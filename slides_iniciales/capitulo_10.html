@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background-color: #F4E7D3;
+            background-image: url('https://www.transparenttextures.com/patterns/natural-paper.png');
+            color: #2E1104;
+            font-family: 'Open Sans', sans-serif;
+            border: 15px solid #4A2311;
+            position: relative;
+        }
+        .header {
+            padding-top: 40px;
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+        .chapter-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 800;
+            color: #4A2311;
+            text-transform: uppercase;
+        }
+        .dashed-rule {
+            border-top: 2px dashed #4A2311;
+            margin-top: 10px;
+            width: 100%;
+        }
+        .main-content {
+            display: grid;
+            grid-template-columns: 450px 1fr;
+            gap: 40px;
+            padding-top: 32px; /* reduced to save vertical space */
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+        .image-frame {
+            border: 5px solid #4A2311;
+            height: 540px; /* slightly reduced to avoid overflow */
+            width: 450px;
+            overflow: hidden;
+            background-image: url('/home/ubuntu/Yvienendeeso_content/images/image-20.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .text-content {
+            padding-top: 10px;
+        }
+        .drop-cap {
+            float: left;
+            font-family: 'Playfair Display', serif;
+            font-size: 80px;
+            line-height: 60px;
+            padding-top: 4px;
+            padding-right: 10px;
+            color: #F1C40F;
+            font-weight: 800;
+        }
+        .body-text {
+            font-size: 22px;
+            line-height: 1.6;
+            text-align: justify;
+            margin-bottom: 20px; /* reduced */
+        }
+        .vision-list {
+            list-style: none;
+        }
+        .vision-item {
+            font-size: 20px;
+            margin-bottom: 16px; /* reduced */
+            padding-left: 35px;
+            position: relative;
+        }
+        .vision-item::before {
+            content: '✧';
+            position: absolute;
+            left: 0;
+            color: #F1C40F;
+            font-size: 24px;
+        }
+        .quote-box {
+            margin-top: 20px; /* reduced */
+            padding: 20px;
+            border: 1px dashed #4A2311;
+            background: rgba(241, 196, 15, 0.05);
+            font-style: italic;
+            font-size: 20px;
+            color: #4A2311;
+            text-align: center;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <h2 class="chapter-title">10. Visão de Futuro e Conclusão</h2>
+            <div class="dashed-rule"></div>
+        </div>
+        <div class="main-content">
+            <div class="image-frame" aria-label="Geometria Cósmica"></div>
+            <div class="text-content">
+                <p class="body-text">
+                    <span class="drop-cap">A</span> Arte Que Veste transcende o comércio; é um manifesto de identidade e resistência cultural. Nossa visão para o futuro é levar a alma de Sergipe para o cenário global, mantendo a essência da xilogravura em cada passo.
+                </p>
+                <ul class="vision-list">
+                    <li class="vision-item"><strong>Propósito:</strong> Consolidar a marca como referência em moda autoral nordestina.</li>
+                    <li class="vision-item"><strong>Expansão:</strong> Escalar a operação de Aracaju para o mercado internacional.</li>
+                    <li class="vision-item"><strong>Compromisso:</strong> Evolução técnica contínua sem perder a raiz artesanal.</li>
+                </ul>
+                <div class="quote-box">
+                    "No silêncio da geometria, o cosmos se revela." — A harmonia entre tradição e inovação é o nosso destino.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

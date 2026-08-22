@@ -1,0 +1,64 @@
+{
+  "slides": [
+    {
+      "id": "portada",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "capitulo_1",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "capitulo_2",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "capitulo_3",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "capitulo_5",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "capitulo_7",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "capitulo_4",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "capitulo_6",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "capitulo_8",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "capitulo_9",
+      "state": "edited",
+      "pageNum": 10
+    },
+    {
+      "id": "capitulo_10",
+      "state": "edited",
+      "pageNum": 11
+    },
+    {
+      "id": "cierre",
+      "state": "edited",
+      "pageNum": 12
+    }
+  ]
+}

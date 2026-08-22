@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background-color: #F4E7D3;
+            background-image: url('https://www.transparenttextures.com/patterns/natural-paper.png');
+            color: #2E1104;
+            font-family: 'Open Sans', sans-serif;
+            border: 15px solid #4A2311;
+            position: relative;
+        }
+        .header {
+            padding-top: 40px; /* keep top padding */
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+        .chapter-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 800;
+            color: #4A2311;
+            text-transform: uppercase;
+        }
+        .dashed-rule {
+            border-top: 2px dashed #4A2311;
+            margin-top: 10px;
+            width: 100%;
+        }
+        .main-content {
+            display: grid;
+            grid-template-columns: 420px 1fr; /* slightly narrower image column */
+            gap: 30px; /* reduced gap */
+            padding-top: 30px; /* reduced top padding to compact layout */
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+        .image-frame {
+            border: 5px solid #4A2311;
+            width: 380px;
+            height: 480px; /* reduced from 550 to prevent overflow */
+            overflow: hidden;
+        }
+        .abundance-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        .text-content {
+            padding-top: 10px;
+        }
+        .drop-cap {
+            float: left;
+            font-family: 'Playfair Display', serif;
+            font-size: 80px;
+            line-height: 60px;
+            padding-top: 4px;
+            padding-right: 10px;
+            color: #F1C40F;
+            font-weight: 800;
+        }
+        .financial-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 16px; /* slightly reduced */
+            background: rgba(74, 35, 17, 0.03);
+        }
+        .financial-table th {
+            text-align: left;
+            font-family: 'Montserrat', sans-serif;
+            border-bottom: 2px solid #4A2311;
+            padding: 10px;
+            color: #4A2311;
+            text-transform: uppercase;
+            font-size: 18px;
+        }
+        .financial-table td {
+            padding: 10px;
+            border-bottom: 1px dashed #4A2311;
+            font-size: 18px;
+        }
+        .value-cell {
+            font-weight: bold;
+            color: #4A2311;
+            text-align: right;
+        }
+        .proverb-box {
+            margin-top: 18px; /* reduced */
+            padding: 12px;
+            border: 1px solid #4A2311;
+            text-align: center;
+            font-style: italic;
+            font-size: 20px;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <h2 class="chapter-title">08. Gestão Financeira e Custos</h2>
+            <div class="dashed-rule"></div>
+        </div>
+        <div class="main-content">
+            <div class="image-frame">
+                <img src="/home/ubuntu/Yvienendeeso_content/images/image_1782173075635.jpeg" class="abundance-image" alt="Abundância e Troca">
+            </div>
+            <div class="text-content">
+                <p style="font-size: 20px; line-height: 1.6; margin-bottom: 16px;">
+                    <span class="drop-cap">A</span> saúde financeira da Arte Que Veste depende do equilíbrio entre o investimento em qualidade e a eficiência operacional. O planejamento de 2026 foca em margens sustentáveis e custos controlados.
+                </p>
+                <table class="financial-table">
+                    <thead>
+                        <tr>
+                            <th>Investimento Inicial</th>
+                            <th>Estimativa (R$)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Registro de Domínio (.com.br)</td>
+                            <td class="value-cell">40,00</td>
+                        </tr>
+                        <tr>
+                            <td>Fotos Profissionais e Catálogo</td>
+                            <td class="value-cell">500,00 - 1.500,00</td>
+                        </tr>
+                        <tr>
+                            <td>Estoque Inicial (50 peças)</td>
+                            <td class="value-cell">2.000,00 - 3.000,00</td>
+                        </tr>
+                        <tr>
+                            <td>DAS-MEI Mensal (Base 2026)</td>
+                            <td class="value-cell">~ 73,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="proverb-box">
+                    "Onde há troca, há abundância."
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

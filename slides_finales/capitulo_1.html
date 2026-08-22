@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background-color: #F4E7D3;
+            background-image: url('https://www.transparenttextures.com/patterns/natural-paper.png');
+            color: #2E1104;
+            font-family: 'Open Sans', sans-serif;
+            border: 15px solid #4A2311;
+            position: relative;
+        }
+        .header {
+            padding-top: 40px;
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+        .chapter-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 800;
+            color: #4A2311;
+            text-transform: uppercase;
+        }
+        .dashed-rule {
+            border-top: 2px dashed #4A2311;
+            margin-top: 10px;
+            width: 100%;
+        }
+        .main-content {
+            display: grid;
+            grid-template-columns: 450px 1fr;
+            gap: 30px;
+            padding-top: 20px; /* reduced to save vertical space */
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+        .image-frame {
+            border: 5px solid #4A2311;
+            height: 500px; /* reduced from 550px */
+            width: 400px;
+            overflow: hidden;
+        }
+        .sun-image {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .text-content {
+            padding-top: 10px;
+        }
+        .drop-cap {
+            float: left;
+            font-family: 'Playfair Display', serif;
+            font-size: 80px;
+            line-height: 60px;
+            padding-top: 4px;
+            padding-right: 10px;
+            color: #F1C40F;
+            font-weight: 800;
+        }
+        .legal-list {
+            list-style: none;
+            margin-top: 10px; /* reduced */
+        }
+        .legal-item {
+            font-size: 20px;
+            margin-bottom: 10px; /* reduced */
+            padding-left: 30px;
+            position: relative;
+        }
+        .legal-item::before {
+            content: '📜';
+            position: absolute;
+            left: 0;
+            font-size: 18px;
+        }
+        .correction-badge {
+            background: #4A2311;
+            color: #F1C40F;
+            padding: 2px 10px;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            display: inline-block;
+            margin-bottom: 6px; /* reduced */
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <h2 class="chapter-title">01. Fundamentos Jurídicos</h2>
+            <div class="dashed-rule"></div>
+        </div>
+        <div class="main-content">
+            <div class="image-frame">
+                <img src="/home/ubuntu/Yvienendeeso_content/images/image_1782173083109.jpeg" class="sun-image" alt="Onde a luz chega, a prosperidade floresce">
+            </div>
+            <div class="text-content">
+                <div class="correction-badge">Atualizado Junho 2026</div>
+                <p style="font-size: 22px; line-height: 1.6; text-align: justify;">
+                    <span class="drop-cap">A</span> formalização em Aracaju/SE é o alicerce para o crescimento. O processo é integrado entre Receita Federal, Jucese e a Prefeitura Municipal.
+                </p>
+                <ul class="legal-list">
+                    <li class="legal-item"><strong>Alvará de Localização:</strong> Solicitado via SLIM Aracaju na <strong>SEFIN</strong> (Secretaria Municipal de Finanças).</li>
+                    <li class="legal-item"><strong>Tributação:</strong> ICMS interno de <strong>20%</strong> (19% + 1% FECOEP).</li>
+                    <li class="legal-item"><strong>MEI:</strong> CNAE principal 47.81-4/00. Registro imediato via Portal do Empreendedor.</li>
+                </ul>
+                <p style="margin-top: 12px; font-style: italic; font-size: 18px; border-top: 1px solid #4A2311; padding-top: 10px;">
+                    "Onde a luz chega, a prosperidade floresce." — Guia real para operação em Sergipe.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

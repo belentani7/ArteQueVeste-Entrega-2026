@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background-color: #F4E7D3;
+            background-image: url('https://www.transparenttextures.com/patterns/natural-paper.png');
+            color: #2E1104;
+            font-family: 'Open Sans', sans-serif;
+            border: 15px solid #4A2311;
+            position: relative;
+        }
+        .header {
+            padding-top: 40px;
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+        .chapter-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 800;
+            color: #4A2311;
+            text-transform: uppercase;
+        }
+        .dashed-rule {
+            border-top: 2px dashed #4A2311;
+            margin-top: 10px;
+            width: 100%;
+        }
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 450px;
+            gap: 40px;
+            padding-top: 30px;
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+        .text-content {
+            padding-top: 10px;
+        }
+        .drop-cap {
+            float: left;
+            font-family: 'Playfair Display', serif;
+            font-size: 80px;
+            line-height: 60px;
+            padding-top: 4px;
+            padding-right: 10px;
+            color: #F1C40F;
+            font-weight: 800;
+        }
+        .body-text {
+            font-size: 22px;
+            line-height: 1.6;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+        .feature-list {
+            list-style: none;
+        }
+        .feature-item {
+            font-size: 20px;
+            margin-bottom: 15px;
+            padding-left: 35px;
+            position: relative;
+        }
+        .feature-item::before {
+            content: '★';
+            position: absolute;
+            left: 0;
+            color: #F1C40F;
+            font-size: 20px;
+        }
+        .image-container {
+            border: 5px solid #4A2311;
+            height: 500px;
+            width: 450px;
+            overflow: hidden;
+        }
+        .mystical-image {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .quote-box {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px dashed #4A2311;
+            background: rgba(241, 196, 15, 0.05);
+            font-style: italic;
+            font-size: 18px;
+            color: #4A2311;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <h2 class="chapter-title">04. Experiência do Cliente</h2>
+            <div class="dashed-rule"></div>
+        </div>
+        <div class="main-content">
+            <div class="text-content">
+                <p class="body-text">
+                    <span class="drop-cap">A</span> Arte Que Veste prioriza a transparência e o acolhimento. No e-commerce, a confiança é o fio que tece a relação entre a marca e o cliente.
+                </p>
+                <ul class="feature-list">
+                    <li class="feature-item"><strong>Direito de Arrependimento:</strong> Desistência em até 7 dias com devolução integral garantida.</li>
+                    <li class="feature-item"><strong>Dever de Informação:</strong> Clareza total sobre preços, frete e prazos antes da compra.</li>
+                    <li class="feature-item"><strong>Atendimento Humanizado:</strong> Canal direto via WhatsApp Business para suporte ágil.</li>
+                </ul>
+                <div class="quote-box">
+                    "O fogo que aquece o coração também ilumina os caminhos." — Acolhimento e clareza em cada interação.
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="/home/ubuntu/Yvienendeeso_content/images/image_1782173080204.jpeg" class="mystical-image" alt="Fogo e Sabedoria">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

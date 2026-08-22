@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background-color: #F4E7D3;
+            background-image: url('https://www.transparenttextures.com/patterns/natural-paper.png');
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #2E1104;
+            font-family: 'Open Sans', sans-serif;
+            border: 20px solid #4A2311;
+            position: relative;
+        }
+        .content-wrapper {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            padding: 40px;
+            align-items: center;
+        }
+        .image-section {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+        .cover-image {
+            height: 600px;
+            width: 400px;
+            object-fit: contain;
+            box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
+            border: 5px solid #4A2311;
+        }
+        .text-section {
+            flex: 1.2;
+            padding-left: 60px;
+            text-align: left;
+        }
+        .title {
+            font-family: 'Playfair Display', serif;
+            font-size: 72px;
+            font-weight: 800;
+            color: #4A2311;
+            line-height: 1.1;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+        .divider {
+            width: 100px;
+            height: 4px;
+            background-color: #F1C40F;
+            margin-bottom: 30px;
+        }
+        .subtitle {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 28px;
+            margin-bottom: 40px;
+            letter-spacing: 2px;
+        }
+        .credits {
+            font-size: 20px;
+            border-top: 2px dashed #4A2311;
+            padding-top: 20px;
+        }
+        .highlight {
+            color: #4A2311;
+            font-weight: bold;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="slide-container">
+        <div class="content-wrapper">
+            <div class="image-section">
+                <img src="/home/ubuntu/Yvienendeeso_content/images/portada_magica.png" class="cover-image" alt="Arte Que Veste Capa Mágica">
+            </div>
+            <div class="text-section">
+                <div class="divider"></div>
+                <h1 class="title">Arte Que<br>Veste</h1>
+                <p class="subtitle">Guia Forense Passo a Passo<br>Edição Ampliada 2026</p>
+                <div class="credits">
+                    <p>Visão Conceitual: <span class="highlight">Pedro Belentani</span></p>
+                    <p>Operação: Aracaju, Sergipe, Brasil</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
