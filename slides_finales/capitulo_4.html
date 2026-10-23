@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arte Que Veste — Capítulo 4</title>
+<meta charset="UTF-8">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         .slide-container {
@@ -95,7 +97,25 @@
             font-size: 18px;
             color: #4A2311;
         }
-    </style>
+    
+/* Responsive reading mode; original 1280px presentation remains unchanged. */
+@media (max-width: 1279px) {
+  .slide-container { box-sizing:border-box; width:100%; min-height:100vh; height:auto; border-width:8px; overflow-wrap:anywhere; }
+  .header { padding:24px 16px 0; }
+  .main-content { display:flex; flex-direction:column; padding:16px; gap:16px; }
+  .image-frame, .image-container, .visual-center { box-sizing:border-box; width:min(100%,400px); height:auto; aspect-ratio:4 / 5; margin-inline:auto; }
+  .slide-container img { max-width:100%; }
+  .main-title { font-size:clamp(2rem,8vw,5rem); letter-spacing:.04em; }
+  .chapter-title, .brand-title { font-size:clamp(1.5rem,6vw,3rem); }
+  .subtitle { font-size:clamp(1rem,4vw,2rem); padding:10px; margin-bottom:24px; }
+  .text-content, .text-overlay, .credits-section { min-width:0; max-width:100%; }
+  .slide-container p, .slide-container li { font-size:clamp(1rem,2.5vw,1.25rem)!important; }
+  .financial-table { display:block; overflow-x:auto; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration:0.01ms!important; transition-duration:0.01ms!important; scroll-behavior:auto!important; }
+}
+</style>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -119,7 +139,7 @@
                 </div>
             </div>
             <div class="image-container">
-                <img src="/home/ubuntu/Yvienendeeso_content/images/image_1782173080204.jpeg" class="mystical-image" alt="Fogo e Sabedoria">
+                <img src="../imagenes/image_1782173080204.jpeg" class="mystical-image" alt="Fogo e Sabedoria">
             </div>
         </div>
     </div>
@@ -130,6 +150,7 @@
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
 <script>
 (function(){try{
+if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 if(window.Lenis){var l=new Lenis({duration:1.1});var r=function(t){l.raf(t);requestAnimationFrame(r)};requestAnimationFrame(r);}
 if(window.gsap&&window.ScrollTrigger){gsap.registerPlugin(ScrollTrigger);
 document.querySelectorAll('section,h1,h2,.card,img').forEach(function(el){
