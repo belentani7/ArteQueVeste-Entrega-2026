@@ -17,3 +17,10 @@ jobs:
           else
             echo "No root index.html; nothing to validate."
           fi
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Verificación de protocolos
+        run: test -f README.md && test -f LICENSE && test -f .gitignore
+      - name: Tests (node:test)
+        run: node --test test/
